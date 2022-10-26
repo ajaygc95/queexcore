@@ -1,0 +1,18 @@
+version: "3.4"
+
+services:
+  core:
+    image: boozercart.azurecr.io/core:latest
+    build:
+      context: .
+      # dockerfile: ./Dockerfile
+    ports:
+      - 8000:8000
+
+  # web:
+  #   image: boozercart.azurecr.io/frontend:latest
+  #   build:
+  #     context: ./../FrontEnd/boozercart
+  #     # dockerfile: ../Frontend/Dockerfile
+  #   ports:
+  #     - 3000:3000

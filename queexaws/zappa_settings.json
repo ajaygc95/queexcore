@@ -1,0 +1,10 @@
+{
+  "dev": {
+    "aws_region": "us-east-2",
+    "django_settings": "queexaws.settings",
+    "profile_name": "default",
+    "project_name": "queexaws",
+    "runtime": "python3.9",
+    "s3_bucket": "zappa-thd5ju0xc"
+  }
+}
